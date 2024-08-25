@@ -1,12 +1,19 @@
 # wood2pcb
 
-Universal set of adapters from wood to common open source circuit boards, including Arduino UNO, Arduino Mega, Raspberry Pi, Pi Pico, and Adafruit Circuit Playground Express
+Universal set of adapters from wood to common open source circuit boards, including Arduino UNO, Arduino Mega, Raspberry Pi, Pi Pico, and Adafruit Circuit Playground Express.
 
  - [woodduino.STL](woodduino.STL)
  - [woodpi.STL](woodpi.STL)
  - [woodpico.STL](woodpico.STL)
  - [woodexpress.STL](woodexpress.STL)
+ - [Link to buy Ruthex 4-40 Thread Inserts](https://www.3djake.com/ruthex/threaded-insert-4-40-unc-100-pieces)
+ - [4-40 1/4 inch screws from McMaster Carr](https://www.mcmaster.com/91772A106/)
+ - [Link to buy Ruthex M2.5 Thread Inserts](https://www.3djake.com/ruthex/threaded-insert-m25-70-pieces)
+ - [M2.5 x 6 mm screws from McMaster Carr](https://www.mcmaster.com/90116A110/)
+ - [Link to buy Ruthex M2 Thread Inserts](https://www.3djake.com/ruthex/threaded-insert-m2-70-pieces)
+ - [M2 x 6 mm screws from McMaster Carr](https://www.mcmaster.com/90116A010/)
 
+ 
 ![](memes-wood.png)
 
 Wood is a material that has been used for many thousands of years to build the full range of products of the human species.  It remains a central element of housing construction, tools, musical instruments, boats, scientific instruments, and numerous other products.  It can be used for extremely low cost rapid prototyping even for a single unit, and can easily scale up to products with billions of units shipped.  In modern open source product manufacturing, we transmit digital files which replicate physical things.  For very simple wood products, this can be as simple as a hand drawing with dimensions, which anyone with a ruler, a square, a pen, a drill and a saw can copy, leading to extremely low friction replication of products.
@@ -52,29 +59,77 @@ Cheap and rapidly produced printed circuit bards are a major driver of technolog
 
 This is a bracket that connects the Arduino Uno and the Arduino Mega to anything with a pair of #4 screws spaced 1 inch apart.  It is used to mount the Arduino Uno to any kind of wood object with wood screws, or to metal objects with 4-40 threaded holes or plastic parts with thread inserts via machine screws.  The part requires the use of 3 brass thread inserts, which can be inserted using a soldering iron set to 250 C, preferably with some kind of apparatus which allows for motion of the iron constrained into the vertical direction.  It takes 4 grams of material, and prints in about 18 minutes.
 
-![](woodduino-dimensions-1.png)
-![](woodduino-dimensions-2.png)
-![](woodduino-stl-render.png)
+[![](woodduino-dimensions-1.png)](woodduino.pdf)
+[![](woodduino-dimensions-2.png)](woodduino.pdf)
+[![](woodduino-stl-render.png)](woodduino.STL)
 ![](woodduino-3dprint-screenshot.png)
 
  - [woodduino.STL](woodduino.STL)
  - [Link to buy Ruthex #4-40x5,7 Thread Inserts](https://www.3djake.com/ruthex/threaded-insert-4-40-unc-100-pieces)
+ - [4-40 1/4 inch screws from McMaster Carr](https://www.mcmaster.com/91772A106/)
  - [woodduino.SLDPRT](woodduino.SLDPRT)
  - [woodduino.SLDDRW](woodduino.SLDDRW)
+ - [woodduino.pdf](woodduino.pdf)
  - [woodduino.STEP](woodduino.STEP)
 
 
 # WoodPi
 
-![](woodpi-dimensions.png)
+This is a bracket that connects the Raspberry Pi single board computer to anything with a pair of #4 screws spaced 1 inch apart.  It is used to mount the Raspberry Pi to any kind of wood object with wood screws, or to metal objects with 4-40 threaded holes or plastic parts with thread inserts via machine screws.  The part requires the use of 4 M2.5 brass thread inserts, which can be inserted using a soldering iron set to 250 C, preferably with some kind of apparatus which allows for motion of the iron constrained into the vertical direction.  It takes 7 grams of material, and prints in about 24 minutes.
 
-# WoodPico
 
-![](woodpico-dimensions.png)
+[![](woodpi-dimensions.png)](woodpi.pdf)
+[![](woodpi-stl-render.png)](woodpi.STL)
+![](woodpi-3dprint-screenshot.png)
+
+ - [woodpi.STL](woodpi.STL)
+ - [Link to buy Ruthex M2.5 Thread Inserts](https://www.3djake.com/ruthex/threaded-insert-m25-70-pieces)
+ - [M2.5 x 6 mm screws from McMaster Carr](https://www.mcmaster.com/90116A110/)
+ - [woodpi.SLDPRT](woodpi.SLDPRT)
+ - [woodpi.SLDDRW](woodpi.SLDDRW)
+ - [woodpi.pdf](woodpi.pdf)
+ - [woodpi.STEP](woodpi.STEP)
+
 
 # WoodExpress
 
-![](woodexpress-dimensions.png)
+This is a bracket that connects the Adafruit Circuit Playground Express to anything with a pair of #4 screws spaced 1 inch apart.  It is used to mount the Adafruit Circuit Playground Express to any kind of wood object with wood screws, or to metal objects with 4-40 threaded holes or plastic parts with thread inserts via machine screws.  The part requires the use of 14 4-40 brass thread inserts, which can be inserted using a soldering iron set to 250 C, preferably with some kind of apparatus which allows for motion of the iron constrained into the vertical direction.  It takes 7 grams of material, and prints in about 28 minutes.  These screw terminals allow the user to connect wires without soldering or use of a breadboard by screwing wires onto the bare gold plated copper.  Not all screws must be connected, two is generally sufficient to hold the board in place, but all 14 allows for maximum flexibility in connecting wires to the board. 
+
+
+[![](woodexpress-dimensions.png)](woodexpress.pdf)
+[![](woodexpress-stl-render.png)](woodexpress.STL](woodexpress.STL)
+![](woodexpress-3dprint-screenshot.png)
+
+ - [woodexpress.STL](woodexpress.STL)
+ - [Link to buy Ruthex #4-40x5,7 Thread Inserts](https://www.3djake.com/ruthex/threaded-insert-4-40-unc-100-pieces)
+ - [4-40 1/4 inch screws from McMaster Carr](https://www.mcmaster.com/91772A106/)
+ - [woodexpress.SLDPRT](woodexpress.SLDPRT)
+ - [woodexpress.SLDDRW](woodexpress.SLDDRW)
+ - [woodexpress.pdf](woodexpress.pdf)
+ - [woodexpress.STEP](woodexpress.STEP)
+
+
+# WoodPico
+
+
+This is a bracket that connects the Raspberry Pi Pico microcontroller to anything with a pair of #4 screws spaced 1 inch apart.  It is used to mount the Pi Pico to any kind of wood object with wood screws, or to metal objects with 4-40 threaded holes or plastic parts with thread inserts via machine screws.  The part requires the use of 4 M2 brass thread inserts, which can be inserted using a soldering iron set to 250 C, preferably with some kind of apparatus which allows for motion of the iron constrained into the vertical direction.  It takes 2 grams of material, and prints in about 10 minutes.
+
+
+[![](woodpico-dimensions.png)](woodpico.pdf)
+[![](woodpico-stl-render.png)](woodpico.STL)
+![](woodpico-3dprint-screenshot.png)
+
+ - [woodpico.STL](woodpico.STL)
+ - [Link to buy Ruthex M2 Thread Inserts](https://www.3djake.com/ruthex/threaded-insert-m2-70-pieces)
+ - [M2 x 6 mm screws from McMaster Carr](https://www.mcmaster.com/90116A010/)
+ - [woodpico.SLDPRT](woodpico.SLDPRT)
+ - [woodpico.SLDDRW](woodpico.SLDDRW)
+ - [woodpico.pdf](woodpico.pdf)
+ - [woodpico.STEP](woodpico.STEP)
+
+
+
+# Board Dimensions Of the Products
 
 These are the dimensions for the Arduino UNO:
 ![](arduino-uno-dimensions.png)
